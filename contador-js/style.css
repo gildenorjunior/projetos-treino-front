@@ -1,0 +1,44 @@
+body {
+    font-family: 'Odibee Sans', cursive;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 30%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50pt;
+}
+
+#valor {
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button:hover{
+    transition: all 400ms;
+    cursor: pointer;
+    background-color: #222;
+    color: white;
+}
